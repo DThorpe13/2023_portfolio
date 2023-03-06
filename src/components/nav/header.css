@@ -1,0 +1,15 @@
+.nav-bar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2.2em 0em 1em 0em;
+}
+
+.nav-bar p {
+    color: black;
+}
+.nav-bar p:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-size: bold;
+}
