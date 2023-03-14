@@ -1,7 +1,20 @@
 .jumbo-container {
-    padding: 10em 0em;
+    padding: 7em 0em;
     background-color: black;
     color: white;
+}
+.jumbo-head {
+    border: 1px solid white;
+    padding: 1em 0em 2em 0em;
+    margin: 0% 30%;
+    border-radius: 25px;
+}
+.jumbo-container div h1 {
+    margin-block-end: 0;
+}
+.jumbo-container div p {
+    font-size: 110%;
+    
 }
 .btn {
     margin-top: 1em;
@@ -22,6 +35,10 @@
 
 @media only screen and (max-width:480px) {
     .jumbo-container {
-        padding: 10em 0em 12em 0em;
+        padding: 8em 0em 10em 0em;
+    }
+    .jumbo-head {
+        padding: 0.5em 0em 2em 0em;
+        margin: 0% 15%;
     }
 }

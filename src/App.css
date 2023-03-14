@@ -45,12 +45,10 @@ p {
 /* global containers */
 
 .columns-container {
-  background-color: whitesmoke;
   display: flex;
 }
 .col-lg-8 {
   display: block;
-  padding: 5em 0em;
   width: 66%;
   margin: 1em;
   border-radius: 10px;
@@ -63,7 +61,6 @@ p {
 }
 .col-lg-4 {
   display: block;
-  padding: 5em 0em;
   width: 34%;
 }
 
@@ -71,14 +68,12 @@ p {
   .columns-container {
       margin-bottom: 0em;
       display: block;
-      width: 90%;
       align-items: center;
       background-color: white;
   }
   .col-xs-12 {
       display: block;
       width: 100%;
-      margin: 1em;
       border-radius: 10px;
   }
 }

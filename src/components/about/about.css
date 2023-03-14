@@ -1,0 +1,42 @@
+.about-intro {
+    font-size: 2em;
+    font-weight: 700;
+    padding: 3em 5em;
+    box-shadow: 0 0 15px -10px gray;
+    margin-bottom: 1em;
+}
+
+.about-container {
+    padding: 0em 4em 2em 4em;
+}
+.brand-statement {
+    margin: 100px 0px;
+}
+.brand-statement p {
+    padding: 0em 2em;
+    font-size: 1.5em;
+}
+
+.self-image {
+    border-radius: 25px;
+    box-shadow: 0 2px 5px gray;
+    height: 350px;
+    width: 350px;
+}
+
+@media only screen and (max-width:480px) {
+    .about-intro {
+        padding: 1em 1em;
+    
+    }
+    .about-container {
+        padding: 0em 1em;
+    }
+    .self-image {
+        height: 300px;
+        width: 300px;
+    }
+    .brand-statement {
+        margin: 20px 0px;
+    }
+}
