@@ -1,6 +1,5 @@
 .banner {
-    background: rgb(7,61,241);
-    background: linear-gradient(90deg, rgba(7,61,241,1) 0%, rgba(99,166,255,1) 40%, rgba(45,254,239,1) 100%);    
+    background-color: rgb(129,191,191);   
     position: fixed;
     top: 0;
     width: 100%;
@@ -9,7 +8,8 @@
 }
 
 .banner p {
-    color: white;
+    color: black;
+    font-weight: 500;
 }
 .banner p:hover {
     color: black;

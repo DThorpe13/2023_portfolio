@@ -8,6 +8,7 @@ import NoPage from './pages/NoPage';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             </Route>
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

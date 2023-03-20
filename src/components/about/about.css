@@ -6,6 +6,24 @@
     margin-bottom: 1em;
 }
 
+.seo-contain {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.svg-icons {
+    transform: scale(2.5);
+    margin: 1.5em;
+}
+.icon-header {
+    font-size: 22px;
+    font-weight: 500;
+}
+.icon-body {
+    margin: 1.5em;
+    padding: 0px 15px;
+}
+
 .about-container {
     padding: 0em 4em 2em 4em;
 }
@@ -23,11 +41,24 @@
     height: 350px;
     width: 350px;
 }
+.bubble-icon {
+    transform: scale(27);
+    color: teal;
+    position: absolute;
+    top: 53%;
+    left: 49%;
+    opacity: 0.18;
+  }
 
 @media only screen and (max-width:480px) {
     .about-intro {
         padding: 1em 1em;
     
+    }
+    .bubble-icon {
+        transform: scale(15);
+        top: 25%;
+        opacity: 0.15;
     }
     .about-container {
         padding: 0em 1em;
