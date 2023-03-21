@@ -1,3 +1,9 @@
+.social-links-container a {
+    color: black;
+}
+.social-links-container a:hover {
+    color: #81bfbf;
+}
 .social-links {
     margin: 12px;
 }

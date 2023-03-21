@@ -9,6 +9,12 @@ import MailIcon from '@mui/icons-material/Mail';
 import LetterD from '../../images/letter-D.jpeg';
 
 const footer = () => {
+    const user = {
+        faceBook: 'https://www.facebook.com/people/Derek-Thorpe/pfbid05fR3pxwu164TyyC7C5JxBXpEUY9izi6tYQAFFfQpYx53RQfwvJJE12qnhQCdtxvql/',
+        instaGram: 'https://www.instagram.com/d_thorpe13/',
+        linkedIn: 'https://www.linkedin.com/in/derek-thorpe-1b6b761b9/',
+        gitHub: 'https://github.com/DThorpe13'
+    }
   return (
     <div>
         <hr />
@@ -39,10 +45,10 @@ const footer = () => {
             </div>
         </div>
         <div className='social-links-container'>
-            <FacebookIcon className='social-links' fontSize='large'/>
-            <InstagramIcon className='social-links' fontSize='large'/>
-            <LinkedInIcon className='social-links' fontSize='large'/>
-            <GitHubIcon className='social-links' fontSize='large'/>
+            <a href={user.faceBook} target='_blank' rel="noopener noreferrer"><FacebookIcon className='social-links' fontSize='large'/></a>
+            <a href={user.instaGram} target='_blank' rel="noopener noreferrer"><InstagramIcon className='social-links' fontSize='large'/></a>
+            <a href={user.linkedIn} target='_blank' rel="noopener noreferrer"><LinkedInIcon className='social-links' fontSize='large'/></a>
+            <a href={user.gitHub} target='_blank' rel="noopener noreferrer"><GitHubIcon className='social-links' fontSize='large'/></a>
           </div>
     </div>
   )
