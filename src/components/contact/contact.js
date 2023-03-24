@@ -14,7 +14,6 @@ const contact = () => {
                 <div className='col-lg-6 col-xs-12 contact-col-right'>
                     <div>
                         
-                        
                     </div>
                 </div>
             </div>

@@ -1,3 +1,63 @@
 .home-background {
-    background-image: url('');
+    margin: 0;
+    height: 30em;
+}
+.home-background-two {
+    background-color: #d8e9e8;
+    height: 25em;
+}
+.home-contain-left {
+    margin-left: 15%;
+}
+.home-contain-left h1, h2 {
+    text-align: left;
+}
+.home-contain-left h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    /* color: #bf8181; */
+}
+.home-contain-left h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.home-contain-left p {
+    text-align: left;
+    margin-top: 1em;
+}
+.github-home {
+    display: inline-block;
+    border: 1px solid #bf8181;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.github-home:hover {
+    background-color: #bf8181;
+    color: white;
+    font-weight: 600;
+    transform: scale(1.1);
+}
+.home-contain-right {
+    position: relative;
+}
+.home-self-img {
+    position: absolute;
+    height: 350px;
+    left: 2em;
+    top: 5em;
+}
+.home-img-background {
+    width: 466px;
+    height: 350px;
+    background-color: rgb(191, 129, 129, 0.5);
+    position: absolute;
+    top: 3.5em;
+    left: 0.5em;
 }
