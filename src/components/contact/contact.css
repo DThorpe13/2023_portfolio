@@ -1,8 +1,8 @@
 .contact-lead-container {
-    border: 1px solid #d8e9e8;
-    margin: 5em;
+    border: 1px solid rgb(130, 191, 191, 0.2);
+    margin: 2em;
     border-radius: 15px;
-    box-shadow:2px 2px 20px #d8e9e8;
+    box-shadow:2px 2px 30px #d8e9e8;
 }
 .contact-sec-container {
     text-align: left;
@@ -11,13 +11,27 @@
     margin: 5% 20%;
 }
 .contact-chat-para {
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 600;
+}
+.contact-para-two {
+    font-size: 24px;
+    margin-top: 0.5em;
 }
 .contact-mailer {
     border: 1px solid #d8e9e8;
     border-radius: 5px;
     display: inline-block;
-    padding: 3px;
-    margin-top: 10px;
+    padding: 5px 20px;
+    margin-top: 1em;
+}
+.contact-mailer a {
+    color: #3B6363;
+    font-weight: 600;
+}
+.contact-mailer a:hover {
+    color: rgb(130, 191, 191);
+}
+.contact-email {
+    font-weight: 600;
 }
