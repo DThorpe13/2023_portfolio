@@ -35,3 +35,18 @@
 .contact-email {
     font-weight: 600;
 }
+
+@media only screen and (max-width: 480px) {
+    .contact-col-left {
+        margin: 5% 5%;
+    }
+    .contact-chat-para {
+        margin-bottom: 1em;
+    }
+    .contact-para-two {
+        margin-bottom: 0.5em;
+    }
+    .contact-mailer {
+        margin-left: 1.1em;
+    }
+}
