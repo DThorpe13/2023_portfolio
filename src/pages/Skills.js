@@ -1,8 +1,9 @@
 import React from 'react';
+import SkillsComp from '../components/skills/skills';
 
 const Skills = () => {
   return (
-    <div>skills</div>
+    <div><SkillsComp /></div>
   )
 }
 

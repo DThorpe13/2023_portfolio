@@ -10,7 +10,7 @@ const about = () => {
   return (
     <div>
       <p className='about-intro'>
-        -I am a web developer who specializes in frontend development and Content Management Systems.
+        -I am a web developer who specializes in custom frontend development and Content Management Systems.
       </p>
       <div className='columns-container about-container'>
         <div className='col-lg-4 col-xs-12'>
