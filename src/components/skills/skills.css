@@ -3,14 +3,28 @@
     margin-left: 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
+.toolkit-break {
+    border: none;
+    height: 1px;
+    background-color: black;
+    width: 80%;
+}
 .skills-body {
     margin-top: 2em;
 }
+.do-best-section {
+    background-color: #d8e9e8;
+}
 .skill-container {
-    border: 1px solid rgb(191, 129, 129, 0.6);
+    border: 1px solid rgb(129, 191, 191, 0.6);
     padding: 1em;
-    background-color: rgb(191, 129, 129, 0.1);
+    background-color: #d8e9e8;
     z-index: 999;
+}
+.line-break {
+    height: 1px;
+    border: none;
+    background-color: rgb(129, 191, 191, 0.6);
 }
 .skill-container h2 {
     text-align: center;
@@ -25,10 +39,10 @@
     font-weight: 500;
     
 }
-.code-icon {
-    position: absolute;
-    top: 50%;
-    transform: scale(20);
-    color: rgb(216, 233, 232, 0.6);
-    z-index: 0;
+
+@media only screen and (max-width: 480px) {
+    .skill-container {
+        width: 83%;
+        margin: 1em;
+    }
 }

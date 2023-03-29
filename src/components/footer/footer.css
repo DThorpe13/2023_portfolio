@@ -38,23 +38,25 @@
 @media only screen and (max-width:480px) {
     .footer-initial {
         width: 40%;
-        margin-right: 10%;
+        margin-right: 5%;
     }
     .footer-left {
-        margin-left: 0;
+        margin: 1em;
     }
     .footer-left hr {
-        width: 95%;
-        margin-right: 5%;
+        width: 100%;
     }
     .social-links-container {
         padding-top: 5px;
     }
     .footer-head {
         margin-top: 1em;
-        margin-right: 5%;
     }
     .footer-right .footer-para {
         margin-right: 5%;
+        margin-left: 12%;
+    }
+    .footer-right .footer-head {
+        margin-left: 10%;
     }
 }

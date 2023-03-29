@@ -10,7 +10,7 @@ const HomePage = () => {
                     <div className='col-lg-6 col-xs-12 home-contain-left'>
                         <h1>Derek <br />Thorpe</h1>
                         <i><h2>Frontend Developer | Website Creator</h2></i>
-                        <hr/>
+                        <hr className='home-hr'/>
                         <p><a className='github-home' href='https://github.com/DThorpe13' target='_blank' rel="noopener noreferrer"> View GitHub</a></p>
                     </div>
                     <div className='col-lg-6 col-xs-12 home-contain-right'>
