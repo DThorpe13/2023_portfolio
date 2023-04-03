@@ -36,7 +36,7 @@ const skills = () => {
         <div className='skills-body'>
             <div>
                 <h1><i>My Toolkit</i></h1>
-                <hr className='toolkit-break'/>
+                <hr className='toolkit-break' />
                 <div className='columns-container'>
                     <div className='col-lg-6 col-xs-12 skill-container'>
                         <h2><i>Custom Development</i></h2>
@@ -85,7 +85,9 @@ const skills = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className='skills-cta-container'>
+                    <a className='skills-cta' href='/projects' aria-label='View My Projects'>View My Projects</a>
+                </div>
             </div>
         </div>
     )

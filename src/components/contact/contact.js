@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import ContactImage from '../../images/IMG_0200.jpg';
 
 const contact = () => {
   return (
@@ -13,7 +14,7 @@ const contact = () => {
                 </div>
                 <div className='col-lg-6 col-xs-12 contact-col-right'>
                     <div>
-                        
+                        <img src={ContactImage} alt="Contact Page" className='contact-img'/>
                     </div>
                 </div>
             </div>

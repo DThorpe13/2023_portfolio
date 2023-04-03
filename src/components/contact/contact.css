@@ -35,6 +35,13 @@
 .contact-email {
     font-weight: 600;
 }
+.contact-img {
+    opacity: 1;
+    border-radius: 25px;
+    width: 440px;
+    height: 330px;
+    margin: 2em 2em 0em 0em;
+}
 
 @media only screen and (max-width: 480px) {
     .contact-col-left {
@@ -49,4 +56,10 @@
     .contact-mailer {
         margin-left: 1.1em;
     }
+    .contact-img {
+        width: 90%;
+        height: 90%;
+        margin: 5%;
+        opacity: 0.9;
 }
+    }
