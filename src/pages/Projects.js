@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import ProjectPage from '../components/projects/projects';
 
 const Projects = () => {
   return (
-    <div>This is the project page</div>
+    <div><ProjectPage /></div>
   )
 }
 

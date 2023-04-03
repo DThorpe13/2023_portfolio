@@ -74,14 +74,13 @@ p, a {
     margin: 1em;
     border-radius: 10px;
   }
+  .col-lg-4 {
+    display: block;
+    width: 34%;
+  }
 }
 .col-lg-6 {
   border-radius: 10px;
-}
-
-.col-lg-4 {
-  display: block;
-  width: 34%;
 }
 
 @media only screen and (max-width: 480px) {

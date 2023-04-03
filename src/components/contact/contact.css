@@ -49,12 +49,14 @@
     }
     .contact-chat-para {
         margin-bottom: 1em;
+        font-size: 30px;
     }
     .contact-para-two {
         margin-bottom: 0.5em;
+        font-size: 20px;
     }
     .contact-mailer {
-        margin-left: 1.1em;
+        margin-left: 0.5em;
     }
     .contact-img {
         width: 90%;
@@ -72,5 +74,18 @@
         margin-top: 3em;
         width: 320px;
         height: 240px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .contact-para-two {
+        font-size: 16px;
+    }
+    .contact-mailer {
+        margin-left: 0em;
+        padding: 5px 5px;
+    }
+    .contact-lead-container {
+        margin: 0.5em;
     }
 }
