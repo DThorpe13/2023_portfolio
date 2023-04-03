@@ -17,7 +17,7 @@ const about = () => {
           <img className='self-image' src={Selfie} alt="self" loading='lazy' />
         </div>
         <div className='col-lg-8 col-xs-12 brand-statement'>
-          <p>- As a Frontend Developer, I have always taken a great pride in the process of creating, designing, updating, and maintaining web applications, while ensuring that what I am working becomes a mobile responsive, accessable website.
+          <p>- As a Frontend Developer, I have always taken a great pride in the process of creating, designing, updating, and maintaining web applications, while ensuring that what I am working becomes a mobile responsive, accessibile website.
           </p>
         </div>
       </div>
