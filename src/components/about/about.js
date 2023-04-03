@@ -26,26 +26,18 @@ const about = () => {
         <div className='col-lg-4 col-xs-12'>
           <PhoneAndroidIcon fontSize='large' className='svg-icons' />
           <p className='icon-header'>Mobile Responsive</p>
-          <p className='icon-body'>This is where the body text will go.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed tellus tempor lorem laoreet condimentum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed tellus tempor lorem laoreet condimentum.
-          </p>
+          <p className='icon-body'>Mobile responsive to guarantee your site will be easily readable on phone, tablet, or desktop.
+            </p>
         </div>
         <div className='col-lg-4 col-xs-12'>
           <AutoGraphIcon fontSize='large' className='svg-icons' />
           <p className='icon-header'>SEO</p>
-          <p className='icon-body'>This is where the body text will go.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed tellus tempor lorem laoreet condimentum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed tellus tempor lorem laoreet condimentum.
-          </p>
+          <p className='icon-body'>Search engine optimization to ensure your site will be ready to rank high on Google.</p>
         </div>
         <div className='col-lg-4 col-xs-12'>
           <AccessibilityNewIcon fontSize='large' className='svg-icons' />
           <p className='icon-header'>Accessibility</p>
-          <p className='icon-body'>This is where the body text will go.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed tellus tempor lorem laoreet condimentum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed tellus tempor lorem laoreet condimentum.
-          </p>
+          <p className='icon-body'>Accessibility and ADA compliance to ensure that all people can view your site without any issues.</p>
         </div>
       </div>
       <div className='skills-cta-container'>
