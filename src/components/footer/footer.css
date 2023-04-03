@@ -64,3 +64,11 @@
     }
     
 }
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .mail-icon {
+        opacity: 0;
+    }
+    .cell-icon {
+        opacity: 0;
+    }
+}

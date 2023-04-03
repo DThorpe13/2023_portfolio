@@ -16,7 +16,7 @@ const footer = () => {
         gitHub: 'https://github.com/DThorpe13'
     }
   return (
-    <div>
+    <div className='footer-block'>
         <hr />
         <div className='columns-container'>
             <div className='col-lg-6 col-xs-12'>

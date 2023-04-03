@@ -90,3 +90,20 @@
         margin: 20px 0px;
     }
 }
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .bubble-icon {
+        transform: scale(10);
+        top: 30%;
+        left: 80%;
+    }
+    .self-image {
+        height: 300px;
+        width: 300px;
+    }
+    .brand-statement {
+        margin: 0;
+    }
+    .brand-statement p {
+        margin-left: 3em;
+    }
+}
