@@ -2,14 +2,14 @@
     background-color: transparent;
     display: flex;
     justify-content: space-evenly;
-    margin: 2.2em 0em 1em 0em;
+    margin: 3em 0em 1em 0em;
 }
 
 .nav-bar a {
     color: black;
     font-weight: 600;
     text-decoration: none;
-    padding: 1px;
+    padding: 2px;
 }
 .nav-bar a:hover {
     cursor: pointer;
