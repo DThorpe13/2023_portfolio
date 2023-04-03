@@ -48,7 +48,10 @@ const about = () => {
           </p>
         </div>
       </div>
-      <BubbleChartIcon className='bubble-icon'/>
+      <div className='skills-cta-container'>
+        <a className='skills-cta' href='/skills'>View More Skills</a>
+      </div>
+      <BubbleChartIcon className='bubble-icon' />
     </div>
   )
 }

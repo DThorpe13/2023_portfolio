@@ -35,6 +35,9 @@
     position: absolute;
     left: 0;
 }
+.icon-text {
+    display: none;
+}
 @media only screen and (max-width:480px) {
     .footer-initial {
         width: 40%;
@@ -59,4 +62,5 @@
     .footer-right .footer-head {
         margin-left: 10%;
     }
+    
 }

@@ -45,10 +45,10 @@ const footer = () => {
             </div>
         </div>
         <div className='social-links-container'>
-            <a href={user.faceBook} target='_blank' rel="noopener noreferrer"><FacebookIcon className='social-links' fontSize='large'/></a>
-            <a href={user.instaGram} target='_blank' rel="noopener noreferrer"><InstagramIcon className='social-links' fontSize='large'/></a>
-            <a href={user.linkedIn} target='_blank' rel="noopener noreferrer"><LinkedInIcon className='social-links' fontSize='large'/></a>
-            <a href={user.gitHub} target='_blank' rel="noopener noreferrer"><GitHubIcon className='social-links' fontSize='large'/></a>
+            <a href={user.faceBook} target='_blank' rel="noopener noreferrer" aria-label='FaceBook'><span className='icon-text'>facebook</span><FacebookIcon className='social-links' fontSize='large' /></a>
+            <a href={user.instaGram} target='_blank' rel="noopener noreferrer" aria-label='Instagram'><span className='icon-text'>instagram</span><InstagramIcon className='social-links' fontSize='large' /></a>
+            <a href={user.linkedIn} target='_blank' rel="noopener noreferrer" aria-label='LinkedIn'><span className='icon-text'>linkedin</span><LinkedInIcon className='social-links' fontSize='large' /></a>
+            <a href={user.gitHub} target='_blank' rel="noopener noreferrer" aria-label='GitHub'><span className='icon-text'>github</span><GitHubIcon className='social-links' fontSize='large' /></a>
           </div>
     </div>
   )

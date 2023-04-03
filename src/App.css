@@ -68,6 +68,12 @@ p, a {
     margin: 1em;
     border-radius: 10px;
   }
+  .col-lg-12 {
+    display: block;
+    width: 90%;
+    margin: 1em;
+    border-radius: 10px;
+  }
 }
 .col-lg-6 {
   border-radius: 10px;

@@ -49,6 +49,25 @@
     left: 49%;
     opacity: 0.18;
   }
+  .skills-cta {
+    display: inline-block;
+    border: 1px solid #bf8181;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .skills-cta:hover {
+    background-color: #bf8181;
+    color: white;
+    font-weight: 600;
+    transform: scale(1.1);
+  }
+  .skills-cta-container {
+    margin: 1em 0em;
+  }
 
 @media only screen and (max-width:480px) {
     .about-intro {
