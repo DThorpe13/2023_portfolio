@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className='home-background'>
             <div className='home-background-two'>
-                <div className='columns-container'>
+                <div className='columns-container home-contain'>
                     <div className='col-lg-6 col-xs-12 home-contain-left'>
                         <h1>Derek <br />Thorpe</h1>
                         <i><h2>Frontend Developer | Website Creator</h2></i>
