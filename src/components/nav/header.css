@@ -2,7 +2,7 @@
     background-color: transparent;
     display: flex;
     justify-content: space-evenly;
-    margin: 3em 0em 1em 0em;
+    margin: 3em 1em 1em 0em;
 }
 
 .nav-bar a {
@@ -10,6 +10,7 @@
     font-weight: 600;
     text-decoration: none;
     padding: 2px;
+    z-index: 999!important;
 }
 .nav-bar a:hover {
     cursor: pointer;
@@ -17,4 +18,26 @@
     font-weight: 500;
     background-color: rgb(129,191,191, 0.2);
     border-radius: 5px;
+}
+@media only screen and (min-width:481px) {
+    .hamburger {
+        display: none!important;
+    }
+}
+@media only screen and (max-width:480px) {
+    .hamburger {
+        display: block;
+        border: 1px solid black;
+        border-radius: 25%;
+        padding: 3px;
+        margin-left: auto!important;
+        z-index: 999!important;
+    }
+    .nav-link {
+        display: none;
+    }
+    .hamburger-links {
+        text-decoration: none!important;
+        color: black!important;
+    }
 }
