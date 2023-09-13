@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 480px) {
     .home-background {
-        height: 23em;
+        height: 20em;
         position: relative;
     }
     .home-contain {
@@ -79,7 +79,7 @@
         background-color: transparent;
     }
     .home-background-two {
-        height: 20em;
+        height: 19em;
         background-color: white;
         background-image: url('../../images/self-tall.jpg');
         background-repeat: no-repeat, no-repeat;
@@ -87,7 +87,7 @@
     }
     .home-contain-left {
         width: 80%;
-        background-color: rgb(216, 233, 232, 0.9);
+        background-color: rgb(255, 255, 255, 0.6);
         padding: 1em 1em;
         margin-top: 1.5em;
         margin-left: 6%;

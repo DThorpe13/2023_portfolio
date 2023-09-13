@@ -10,7 +10,7 @@
     font-weight: 600;
     text-decoration: none;
     padding: 2px;
-    z-index: 999!important;
+    z-index: 998!important;
 }
 .nav-bar a:hover {
     cursor: pointer;
@@ -31,7 +31,7 @@
         border-radius: 25%;
         padding: 3px;
         margin-left: auto!important;
-        z-index: 999!important;
+        z-index: 998!important;
     }
     .nav-link {
         display: none;
